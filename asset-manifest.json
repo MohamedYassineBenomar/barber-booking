@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/barber-booking/static/css/main.4c2e00bc.css",
+    "main.css": "/barber-booking/static/css/main.d87fb06d.css",
     "main.js": "/barber-booking/static/js/main.cddac902.js",
     "static/js/787.a4a07d91.chunk.js": "/barber-booking/static/js/787.a4a07d91.chunk.js",
     "static/media/asbarber.jpg": "/barber-booking/static/media/asbarber.e74f3fc7ff9bedfbdfd6.jpg",
@@ -8,12 +8,12 @@
     "static/media/barber-zurich.jpg": "/barber-booking/static/media/barber-zurich.1f54ff7f55cfa5cbfdda.jpg",
     "static/media/barber-logo2.jpg": "/barber-booking/static/media/barber-logo2.8cb0a447ec5e8b0df7b6.jpg",
     "index.html": "/barber-booking/index.html",
-    "main.4c2e00bc.css.map": "/barber-booking/static/css/main.4c2e00bc.css.map",
+    "main.d87fb06d.css.map": "/barber-booking/static/css/main.d87fb06d.css.map",
     "main.cddac902.js.map": "/barber-booking/static/js/main.cddac902.js.map",
     "787.a4a07d91.chunk.js.map": "/barber-booking/static/js/787.a4a07d91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2e00bc.css",
+    "static/css/main.d87fb06d.css",
     "static/js/main.cddac902.js"
   ]
 }
