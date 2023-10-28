@@ -1,0 +1,88 @@
+
+@keyframes movePoles {
+  0% {
+    transform: translatex(-83%);
+  } 
+  
+}
+
+.pol-animation {
+    animation: movePoles2 10.196s linear infinite; 
+}
+#Barberpole-container {
+  
+    display: flex;
+    gap: 0;
+    
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    #pole-container {
+       
+        position: absolute;
+        left: -10%;
+        top: -50%;
+        display: flex;
+        height: 150%;
+        animation: movePoles 300s linear infinite;
+        
+        .pole {
+           
+           
+            transform: rotate(35deg);
+            height: 200%;
+            width: 35px;
+           
+
+        }
+        .redpole {
+            background-color: red;
+        }
+        .bluepole {
+            background-color: rgb(40, 151, 255);
+        }
+        .whitepole {
+            background-color: white;
+        }
+    }
+    #pole-container2 {
+        visibility: hidden;
+        background-color: aqua;
+        visibility: hidden;
+        position: absolute;
+        top: -50%;
+        display: flex;
+        height: 100%;
+        
+        
+        .pole {
+            
+            transform: rotate(45deg);
+            height: 200%;
+            width: 35px;
+          
+          
+        }
+        .redpole {
+
+            background-color: red;
+                
+            
+        }
+        .bluepole {
+
+            background-color: rgb(40, 151, 255);
+            
+        }
+        .whitepole {
+
+            background-color: white;
+                
+            
+        }
+    }
+}
+
