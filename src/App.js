@@ -1,9 +1,12 @@
 import './App.scss';
-import Barberpole from './components/Barberpole/Barberpole';
+
+import Maincontainer from './containers/Maincontainer';
+
 function App() {
   return (
     <div className="App">
-      <Barberpole />
+      <Maincontainer />
+      
     </div>
   );
 }
