@@ -14,13 +14,14 @@
     width: 100%;
     #body-container {
         
-        flex: 8;
+        flex: 9;
         height: 100%;
         width: 100%;
         margin: 0;
         #img-container {
             
             height: 100%;
+            width: 100%;
             object-fit: cover;
             #background-img {
                 width: 100%;
@@ -35,10 +36,10 @@
                 background-repeat: no-repeat;
                 width: 100%; /* Set a specific width for the div */
                 height: 100%; /* Set a specific height for the div */
-              
+                background-color: red;
                 #body-container-left {
                     display: flex;
-                    gap: 50px;
+                  
                     justify-content: center;
                     align-items: center;
                     flex: 1;
@@ -55,44 +56,64 @@
                         top: 40px;
                         left: 70px;
                         height: 20%;
-                        width: 30%;
+                        width: 200px;
+                        min-width: 200px;
                       
                     }
                     #body-container-left-content {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        position: absolute;
-                        
-                        
+                        align-items: center;
+                        position: absolute; 
                         border-radius: 10%;
                         height: 40%;
                         width: 60%;
-                        min-width: 300px;
                         min-height: 300px;
+                        min-width: 300px;
                         background-color: black;
                         box-shadow: 5px 5px 10px 10px orange;
                         color: white;
                         font-size: 21.6px;
-
-                        #barber-logo {
-                            visibility: hidden;
-                            position: absolute;
-                            left: 30%;
-                            bottom: 80%;
-                            background-image: url('../barber-icon.png');
-                            background-size: cover;
-                            background-position: center;
-                            height: 250px;
-                            width: 250px;
-                            
-                        }
-                     
-                        #booking-btn {
-                            
-                            height: 64.8px;
-                            font-size: 28.8px;
-                            background-color: greenyellow;
+                        #left-content {
+                            display: flex;
+                            flex-direction: column;
+                            background-color: black;
+                            width: 100%;
+                            height: 80%;
+                            #barber-logo {
+                                visibility: hidden;
+                                position: absolute;
+                                left: 30%;
+                                bottom: 80%;
+                                background-image: url('../barber-icon.png');
+                                background-size: cover;
+                                background-position: center;
+                                height: 250px;
+                                width: 250px;
+                                
+                            }
+                            #left-content-text {
+                                flex: 1.5;
+                                width: 85%;
+                                font-size: 25px;
+                                text-align: center;
+                                margin: auto;
+                            }
+                            #left-content-title {
+                                flex: 1.5;
+                                width: 90%;
+                                font-size: 36px;
+                                text-align: center;
+                                margin: auto;
+                            }
+                            #booking-btn {
+                                flex: 1;
+                                width: 100%;
+                                height: 64.8px;
+                                font-size: 28.8px;
+                                background-color: greenyellow;
+                            }
                         }
                     }
                     
@@ -113,14 +134,64 @@
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
-                        min-height: 330px;
+                        min-height: 300px;
                         min-width: 300px;
                         border-radius: 10%;
                         height: 70%;
                         width: 50%;
                         background-color: black;
                         box-shadow: 10px 10px 20px 20px orange;
-                      
+                        #body-container-right-content-container {
+                            display: flex;
+                            height: 100%;
+                            width: 100%;
+                            position: relative;
+                            #body-container-right-content-text {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                left: 10%;
+                                bottom: 10%;
+                                height: 25%;
+                                width: 80%;
+                                opacity: 80%;
+                                border-radius: 10%;
+                                background-color: black;   
+                                #body-container-right-content-text-container {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 90%;
+                                    width: 95%;
+                                    
+                                    #body-container-right-content-text-title {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 100%;
+                                        flex: 1;
+                                        font-size: xx-large;
+                                        color: white;
+                                        
+                                    }
+                                    #body-container-right-content-text-paragraph {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 100%;
+                                        flex: 1;
+                                        font-size: x-large;
+                                        color: white;
+                                    }
+                                }
+                            }
+                            /*#body-container-right-content-silder-left {
+
+                            }*/
+                        }
                     }
                    
                     
@@ -134,10 +205,15 @@
 }
 
 
+
+
 @media (max-width: 640px) {
     #body-container {
       display: flex;
       flex-direction: column;
       margin: auto;
+    }
+    #logo-container {
+        display: none;
     }
   }

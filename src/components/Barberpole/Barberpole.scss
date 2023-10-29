@@ -7,11 +7,10 @@
 }
 
 #Barberpole-container {
-    flex: 0.5;
+    flex: 1;
     display: flex;
-    gap: 0;
     height: 60px;
-    width: 199.27vh;
+    width: 100%;
     background-color: white;
     border: 1px solid black;
     position: relative;
@@ -36,6 +35,7 @@
                 transform: rotate(35deg);
                 height: 200%;
                 width: 35px;    
+                min-width:35px ;
             }
             .redpole {
                 background-color: red;

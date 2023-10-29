@@ -1,7 +1,7 @@
 import React from 'react'
 import './Maincontainer.scss'
 import Barberpole from '../components/Barberpole/Barberpole';
-import barberImage from '../barber-zurich.jpg';
+
 
 function Maincontainer() {
   const handleBookingPoopup = () => {
@@ -19,17 +19,30 @@ function Maincontainer() {
 
           </div>
             <div id='body-container-left-content'>
-              <div id='barber-logo'>
-
+              <div id="left-content">
+                
+                <span id='left-content-title'> <strong>BARBER SHOP</strong></span>
+                <span id='left-content-text'><strong>PLACE TO GET BEST HAIR CUT</strong></span>
+                <button id='booking-btn' className='btns' onClick={handleBookingPoopup}> <strong>Book Now</strong> </button>
               </div>
-              <h1> BARBER SHOP</h1>
-              <h2>PLACE TO GET BEST HAIR CUT</h2>
-              <button id='booking-btn' className='btns' onClick={handleBookingPoopup}> <strong>Book Now</strong> </button>
             </div>
           </div>
             <div id='body-container-right'>
               <div id='body-container-right-content'>
-                
+                <div id='body-container-right-content-container'>
+                  <div id='body-container-right-content-silder-left'>
+
+                  </div>
+                  <div id='body-container-right-content-silder-right'>
+
+                  </div>
+                  <div id='body-container-right-content-text'>
+                    <div id='body-container-right-content-text-container'>
+                      <span id='body-container-right-content-text-title'><strong>JACK</strong></span>
+                      <span id='body-container-right-content-text-paragraph'><strong>7 years experience</strong></span>
+                    </div>
+                  </div>
+                </div>
               </div>
               
             </div>
