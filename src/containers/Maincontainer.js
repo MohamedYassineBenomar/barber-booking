@@ -30,11 +30,23 @@ function Maincontainer() {
             <div id='body-container-right'>
               <div id='body-container-right-content'>
                 <div id='body-container-right-content-container'>
-                  <div id='body-container-right-content-silder-left'>
+                  <div id='body-container-right-content-silder'>
+                    <div id='body-container-right-content-silder-left'>
+                      <div className='leftsliderrow toppart'>
 
-                  </div>
-                  <div id='body-container-right-content-silder-right'>
+                      </div>
+                      <div className='leftsliderrow bottompart'>
 
+                      </div>
+                    </div>
+                    <div id='body-container-right-content-silder-right'>
+                      <div className='rightsliderrow toppart'>
+
+                      </div>
+                      <div className='rightsliderrow bottompart'>
+
+                      </div>
+                    </div>
                   </div>
                   <div id='body-container-right-content-text'>
                     <div id='body-container-right-content-text-container'>

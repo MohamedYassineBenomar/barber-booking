@@ -188,9 +188,74 @@
                                     }
                                 }
                             }
-                            /*#body-container-right-content-silder-left {
+                            #body-container-right-content-silder {
+                                display: flex;
+                               
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                height: 20%;
+                                width: 100%;
+                              
+                                top: 35%;
+                            
+                                #body-container-right-content-silder-left {
+                                  
+                                    left: 30px;
+                                    width: 50px;
+                                    height: 70px;
+                                    position: absolute;
+                                  
+                                    .leftsliderrow {
+                                        width: 20%;
+                                        height: 60%;
+                                        background-color: white;
+                                        margin-top: -36%;
+                                    }
+                                    .toppart {
+                                        
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: top;
+                                        transform: rotate(45deg);
+                                    }
+                                    .bottompart {
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: center;
+                                        transform: rotate(-45deg);
+                                    }
+                                }
+                                #body-container-right-content-silder-right {
+                                    
+                                    right: -10px;
+                                    width: 50px;
+                                    height: 70px;
+                                    position: absolute;
+                                 
+                                    .rightsliderrow {
+                                        width: 20%;
+                                        height: 60%;
+                                        background-color: white;
+                                        margin-top: -36%;
+                                        
+                                    }
+                                    .toppart {
+                                        
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: top;
+                                        transform: rotate(-45deg);
+                                    }
+                                    .bottompart {
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: center;
+                                        transform: rotate(45deg);
+                                    }
+                                }
 
-                            }*/
+                            }
                         }
                     }
                    
