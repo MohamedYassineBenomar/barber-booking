@@ -141,6 +141,7 @@
                         width: 50%;
                         background-color: black;
                         box-shadow: 10px 10px 20px 20px orange;
+                    
                         #body-container-right-content-container {
                             display: flex;
                             height: 100%;
@@ -280,5 +281,11 @@
     }
     #logo-container {
         display: none;
+    }
+    #body-container-right-content-text-title > strong {
+        font-size: x-large;
+    }
+    #body-container-right-content-text-paragraph > strong {
+        font-size: large;
     }
   }
